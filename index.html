@@ -1,18 +1,25 @@
 <!DOCTYPE html>
-<html class="no-js" lang="en">
+<html class="no-js" lang="ko">
 
 <head>
 
     <!--- basic page needs
     ================================================== -->
     <meta charset="utf-8">
-    <title>Ceevee 2.0</title>
+    <title>Neltique's Portfolio</title>
     <meta name="description" content="">
     <meta name="author" content="">
+    <meta name="format-detection" content="telephone=no">
+
 
     <!-- mobile specific metas
     ================================================== -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <!--Web Font
+    ================================================== -->
+    <link href="https://webfontworld.github.io/gmarket/GmarketSans.css" rel="stylesheet">
 
     <!-- CSS
     ================================================== -->
@@ -74,23 +81,19 @@
 
                 <div class="s-hero__content-about">
 
-                    <h1>I'm Jonathan Doe.</h1>
+                    <h1>안녕하세요. <br>이언권입니다!</h1>
+
 
                     <h3>
-                        I'm a Manila based <span>graphic designer</span>, <span>illustrator</span> and
-                        <span>webdesigner</span> creating awesome and
-                        effective visual identities for companies of all sizes around the globe. Let's <a
-                            class="smoothscroll" href="#about">start scrolling</a>
-                        and learn more <a class="smoothscroll" href="#about">about me</a>.
+                        <a class="smoothscroll" href="#about">스크롤</a>을 내려
+                        저에 관한 내용을 보시면 됩니다.
                     </h3>
 
                     <div class="s-hero__content-social">
-                        <a href="#0"><i class="fab fa-facebook-square" aria-hidden="true"></i></a>
-                        <a href="#0"><i class="fab fa-twitter" aria-hidden="true"></i></a>
-                        <a href="#0"><i class="fab fa-instagram" aria-hidden="true"></i></a>
-                        <a href="#0"><i class="fab fa-dribbble" aria-hidden="true"></i></a>
-                        <a href="#0"><i class="fab fa-behance" aria-hidden="true"></i></a>
-                        <a href="#0"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+                        <a href="https://github.com/neltique" target="_blank"><i class="fab fa-github"
+                                aria-hidden="true"></i></a>
+                        <a href="https://gitlab.com/neltique" target="_blank"><i class="fab fa-gitlab"
+                                aria-hidden="true"></i></a>
                     </div>
 
                 </div> <!-- end s-hero__content-about -->
@@ -102,7 +105,7 @@
             <a href="#about" class="s-hero__scroll-link smoothscroll">
                 <span class="scroll-arrow">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                        style="fill:rgba(0, 0, 0, 1);transform:;-ms-filter:">
+                        style="fill:rgba(0, 0, 0, 1);transform:-ms-filter;">
                         <path
                             d="M18.707 12.707L17.293 11.293 13 15.586 13 6 11 6 11 15.586 6.707 11.293 5.293 12.707 12 19.414z">
                         </path>
@@ -126,16 +129,7 @@
             <div class="column large-9 tab-12 s-about__content">
                 <h3>About Me</h3>
                 <p>
-                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                    accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-                    quae ab illo inventore veritatis et quasi architecto beatae vitae
-                    dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-                    aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
-                    eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est,
-                    qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
-                    sed quia non numquam eius modi tempora incidunt ut labore et dolore
-                    magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis
-                    nostrum exercitationem ullam corporis suscipit laboriosam.
+                    내용적기
                 </p>
 
                 <hr>
@@ -143,25 +137,13 @@
                 <div class="row s-about__content-bottom">
                     <div class="column w-1000-stack">
                         <h3>Contact Details</h3>
-
                         <p>
-                            Jonathan Doe <br>
-                            1600 Amphitheatre Parkway <br>
-                            Mountain View, CA 94043 US <br>
-                            <a href="tel:+1975432345">+197 543 2345</a> <br>
-                            <a href="mailto:#0">sayhello@ceevee.com</a>
+                            Lee Eon Kwon <br>
+                            Busan, Republic of Korea <br>
+                            <a href="tel:+82 10-2978-9986">+82) 010 2978 9986</a> <br>
+                            <a href="mailto:neltique123@gmail.com">neltique123@gmail.com</a>
                         </p>
 
-                    </div>
-                    <div class="column w-1000-stack">
-                        <a href="#0" class="btn btn--download">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                style="fill:rgba(0, 0, 0, 1);transform:;-ms-filter:">
-                                <path d="M12 16L16 11 13 11 13 4 11 4 11 11 8 11z"></path>
-                                <path d="M20,18H4v-7H2v7c0,1.103,0.897,2,2,2h16c1.103,0,2-0.897,2-2v-7h-2V18z"></path>
-                            </svg>
-                            Download CV
-                        </a>
                     </div>
                 </div>
             </div>
@@ -186,46 +168,64 @@
         <div class="row collapse block-large-1-4 block-medium-1-3 block-tab-1-2 block-500-stack folio-list">
 
             <div class="column folio-item">
-                <div href="#" class="folio-item__thumb">
-                    <div class="pj_zoom"><img src="images/portfolio/droplet.jpg" srcset="images/portfolio/droplet.jpg 1x, 
-                                 images/portfolio/droplet@2x.jpg 2x" alt=""></div>
+                <a href="#" class="folio-item__thumb">
+                    <img src="images/portfolio/droplet.jpg" srcset="images/portfolio/droplet.jpg 1x, 
+                                 images/portfolio/droplet@2x.jpg 2x" alt="">
                     <div class="pj_box">
                         <p class="sub_title">project1</p>
                         <h3 class="pj_title">브랜드이름</h3>
-                        <p class="pj_about">
-                            <a href="#">https://www.github.io/brand1</a>
-                        </p>
-                        <p class="pj_btnbox">
-                            <a href="#" class="pj_btn" target="_blank">BI&amp;BX</a>
-                            <a href="#" class="pj_btn" target="_blank">Web</a>
-                            <a href="#" class="pj_btn" target="_blank">Video</a>
-                            <a href="#" class="pj_btn" target="_blank">E-book</a>
-                        </p>
+                        <p class="pj_about">BI&amp;BX Guide</p>
                     </div>
-                </div>
+                </a>
             </div> <!-- end folio-item -->
 
             <div class="column folio-item">
-                <div href="#" class="folio-item__thumb">
-                    <div class="pj_zoom"><img src="images/portfolio/lamp.jpg" srcset="images/portfolio/lamp.jpg 1x, 
-                                 images/portfolio/lamp@2x.jpg 2x" alt=""></div>
+                <a href="#" class="folio-item__thumb">
+                    <img src="images/portfolio/lamp.jpg" srcset="images/portfolio/lamp.jpg 1x, 
+                                 images/portfolio/lamp@2x.jpg 2x" alt="">
                     <div class="pj_box">
-                        <p class="sub_title">project2</p>
-                        <h3 class="pj_title">브랜드이름2</h3>
-                        <p class="pj_about">
-                            <a href="#">https://www.github.io/brand2</a>
-                        </p>
-                        <p class="pj_btnbox">
-                            <a href="#" class="pj_btn" target="_blank">BI&amp;BX</a>
-                            <a href="#" class="pj_btn" target="_blank">Web</a>
-                            <a href="#" class="pj_btn" target="_blank">Video</a>
-                            <a href="#" class="pj_btn" target="_blank">E-book</a>
-                        </p>
+                        <p class="sub_title">project1</p>
+                        <h3 class="pj_title">브랜드이름</h3>
+                        <p class="pj_about">Web Guide</p>
                     </div>
-                </div>
+                </a>
             </div> <!-- end folio-item -->
 
+            <div class="column folio-item">
+                <a href="#" class="folio-item__thumb">
+                    <img src="images/portfolio/minimalismo.jpg" srcset="images/portfolio/minimalismo.jpg 1x, 
+                                 images/portfolio/minimalismo@2x.jpg 2x" alt="">
+                    <div class="pj_box">
+                        <p class="sub_title">project1</p>
+                        <h3 class="pj_title">브랜드이름</h3>
+                        <p class="pj_about">SITE</p>
+                    </div>
+                </a>
+            </div> <!-- end folio-item -->
 
+            <div class="column folio-item">
+                <a href="#" class="folio-item__thumb">
+                    <img src="images/portfolio/shutterbug.jpg" srcset="images/portfolio/shutterbug.jpg 1x, 
+                                 images/portfolio/shutterbug@2x.jpg 2x" alt="">
+                    <div class="pj_box">
+                        <p class="sub_title">project1</p>
+                        <h3 class="pj_title">브랜드이름</h3>
+                        <p class="pj_about">Video</p>
+                    </div>
+                </a>
+            </div> <!-- end folio-item -->
+
+            <div class="column folio-item">
+                <a href="#" class="folio-item__thumb">
+                    <img src="images/portfolio/fuji.jpg" srcset="images/portfolio/fuji.jpg 1x, 
+                                 images/portfolio/fuji@2x.jpg 2x" alt="">
+                    <div class="pj_box">
+                        <p class="sub_title">project1</p>
+                        <h3 class="pj_title">브랜드이름</h3>
+                        <p class="pj_about">E-book</p>
+                    </div>
+                </a>
+            </div> <!-- end folio-item -->
 
 
         </div> <!-- end folio-list -->
@@ -356,6 +356,14 @@
 
                     <ul class="skill-bars-fat">
                         <li>
+                            <div class="progress percent90"></div>
+                            <strong>C/C++</strong>
+                        </li>
+                        <li>
+                            <div class="progress percent80"></div>
+                            <strong>Python</strong>
+                        </li>
+                        <li>
                             <div class="progress percent85"></div>
                             <strong>HTML</strong>
                         </li>
@@ -364,20 +372,20 @@
                             <strong>CSS</strong>
                         </li>
                         <li>
-                            <div class="progress percent65"></div>
+                            <div class="progress percent75"></div>
                             <strong>Javascript</strong>
                         </li>
                         <li>
-                            <div class="progress percent90"></div>
-                            <strong>Figma</strong>
+                            <div class="progress percent80"></div>
+                            <strong>Photoshop</strong>
                         </li>
                         <li>
                             <div class="progress percent75"></div>
                             <strong>Illustrator</strong>
                         </li>
                         <li>
-                            <div class="progress percent60"></div>
-                            <strong>Photoshop</strong>
+                            <div class="progress percent75"></div>
+                            <strong>Indesign</strong>
                         </li>
                     </ul>
 
