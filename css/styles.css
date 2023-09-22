@@ -4263,6 +4263,17 @@ button.btn--pill {
     background-color: rgba(0, 0, 0, 0.5);
     text-align: center;
     padding: 20px 0;
+    transition: all 0.5s;
+}
+
+.pj_logo {
+    height: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.pj_logo>div>img {
+    height: 100%;
 }
 
 .pj_title {
@@ -4270,6 +4281,7 @@ button.btn--pill {
     color: #fff;
     margin: 0;
     font-weight: 400;
+
 }
 
 .pj_about {
@@ -4291,10 +4303,15 @@ button.btn--pill {
 .folio-item a:hover {
     color: inherit;
     font-weight: 400;
+
+
 }
 
+.folio-item a:hover .pj_box {
+    transform: translateY(100%);
+}
 
-.folio-item img {
+.folio-item a img {
     display: block;
     margin: 0;
     -webkit-transition: all, .5s;
@@ -4315,9 +4332,9 @@ button.btn--pill {
     transform: scale(1);
 }
 
-.folio-item:hover .folio-item__thumb img {
-    -webkit-transform: scale(1.05);
-    transform: scale(1.05);
+.folio-item:hover .folio-item__thumb>img {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 /* ------------------------------------------------------------------- 
