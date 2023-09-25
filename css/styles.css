@@ -4008,6 +4008,9 @@ button.btn--pill {
     padding-top: calc(6 * var(--space));
     padding-bottom: var(--vspace-4);
     color: rgba(255, 255, 255, 0.4);
+    background-image: url("../images/controller.png");
+    background-repeat: no-repeat;
+    background-position: 80% 20%;
 }
 
 .s-about h3 {
